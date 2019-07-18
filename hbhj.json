@@ -1,0 +1,94 @@
+{
+  "productSpec": [
+    {
+      "productSpecCharacteristic": [
+        {
+          "productSpecCharID": "PPM_ATTR_1895",
+          "characteristicGroupID": "ATTR_GRP_1766",
+          "name": "FeedType",
+          "description": "FeedType",
+          "valueType": "List",
+          "valueTypeIndicator": "PRODUCT",
+          "minCardinality": 0,
+          "maxCardinality": 1,
+          "productSpecCharacteristicValue": [
+            {
+              "productSpecCharValueID": "PPM_ATTR_1895",
+              "valueType": "List",
+              "default": false
+            },
+            {
+              "valueType": "String",
+              "value": "Direct"
+            }
+          ],
+          "productSpecCharacteristicRelationship": [
+            {
+              "relationshipType": "association",
+              "associatedCharacterisitcs": [
+                {
+                  "productSpecCharID": "PPM_ATTR_1893",
+                  "characteristicGroupID": "ATTR_GRP_1766",
+                  "name": "LANGUAGE",
+                  "description": "LANGUAGE",
+                  "valueType": "Text",
+                  "valueTypeIndicator": "PRODUCT",
+                  "productSpecCharacteristicValue": [
+                    {
+                      "productSpecCharValueID": "PPM_ATTR_1893",
+                      "valueType": "Text"
+                    }
+                  ],
+                  "productSpecCharacteristicRelationship": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "productSpecCharID": "PPM_ATTR_1895",
+          "characteristicGroupID": "ATTR_GRP_1766",
+          "name": "FeedType",
+          "description": "FeedType",
+          "valueType": "List",
+          "valueTypeIndicator": "PRODUCT",
+          "minCardinality": 0,
+          "maxCardinality": 1,
+          "productSpecCharacteristicValue": [
+            {
+              "productSpecCharValueID": "PPM_ATTR_1895",
+              "valueType": "List",
+              "default": false
+            },
+            {
+              "valueType": "String",
+              "value": "Cable"
+            }
+          ],
+          "productSpecCharacteristicRelationship": [
+            {
+              "relationshipType": "association",
+              "associatedCharacterisitcs": [
+                {
+                  "productSpecCharID": "PPM_ATTR_1916",
+                  "characteristicGroupID": "ATTR_GRP_1766",
+                  "name": "OperatorCode",
+                  "description": "OperatorCode",
+                  "valueType": "Text",
+                  "valueTypeIndicator": "PRODUCT",
+                  "productSpecCharacteristicValue": [
+                    {
+                      "productSpecCharValueID": "PPM_ATTR_1916",
+                      "valueType": "Text"
+                    }
+                  ],
+                  "productSpecCharacteristicRelationship": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
