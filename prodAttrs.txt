@@ -1,0 +1,40 @@
+   var charValObj={};
+  var specCharObj={};
+   var specObj={};
+   var charVal;
+   var specValObjs=[];
+    for(var prodSpec in products.productSpec){
+     specObj = products.productSpec[prodSpec];
+      for(var specChar in specObj.productSpecCharacteristic){
+    
+      specCharObj = specObj.productSpecCharacteristic[specChar];
+          for(var charVal in specCharObj.productSpecCharacteristicValue){
+            
+        charValObj= specCharObj.productSpecCharacteristicValue[charVal];
+     	 charVal=  charValObj.value;
+        
+          }
+       if(specCharObj.name="FeedType"){
+             specValObjs[charVal]=charVal;
+            console.log("specValuesList111---",specValObjs);
+							    				
+         }
+       }
+    }
+	
+
+
+	//----------
+	
+		for(var i=0;i<paramSplit.length;i++){
+					  			        console.log("splitted values",paramSplit.length,paramSplit[i]);
+					  			       if(prdType == paramSplit[i]){
+					  			    	 console.log("prdType>>>",prdType);
+					  			    	 if(prSpecss.productSpecID){
+												console.log("prdSpceId",prSpecss.name);
+												  prdSpecIdObj[prSpecss.name]=prSpecss.name;
+													
+											}
+											  
+					  			       }
+					  		   }
